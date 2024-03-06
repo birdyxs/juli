@@ -44,8 +44,13 @@
       .more:hover { background:#678c67; transition:2s all linear; cursor:pointer; }
  
     body { font-family: 'Questrial', sans-serif; font-size:12px; letter-spacing:1px; line-height:20px; color:#949494; text-align:justify; background:#1a1a1a; background-image: url('https://assets.tumblr.com/images/x.gif?v=1'); background-position:top left; background-attachment:fixed; background-size:cover repeat;  }
- 
-    #container { width:450px; height:450px; position:fixed; left:50%; top:50%; margin-left:-350px; margin-top:-225px; background:#0f0f0f; overflow:auto; box-sizing:border-box; border-radius:100%; border:#201f1f 1px solid;}
+
+  *, body, img { cursor:url(https://secure.static.tumblr.com/vmteopo/Eggo12azo/small_white_cursor.png), auto;}
+
+::-moz-selection { color: #e5e1e1; background:#678c67;}
+::selection { color: #0f0f0f; background:#678c67;}
+    
+#container { width:450px; height:450px; position:fixed; left:50%; top:50%; margin-left:-350px; margin-top:-225px; background:#0f0f0f; overflow:auto; box-sizing:border-box; border-radius:100%; border:#201f1f 1px solid;}
  
     #sidebar { position:fixed; width:300px; margin-top:-20px; margin-left:350px; height:300px; text-align:center; background:#201f1f; border-radius:100%;}
  
